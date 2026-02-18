@@ -1,30 +1,17 @@
-📌 Deskripsi Project
+# Deskripsi Project
 
-Project ini merupakan analisis data terkait Drug Fatigue Analysis (FDA) menggunakan pendekatan data analysis untuk mengolah, membersihkan, dan menganalisis dataset guna mendapatkan insight yang relevan.
+Project ini merupakan analisis data terkait Fundamental Data Analyst (FDA) yang berjudul "prediksi Risiko penyakit jantung berdasarkan faktor kesehatan menggunakan Desicion Tree"
 
-Project ini bertujuan untuk:
+# Tujuan Analisis
 
-Melakukan eksplorasi data (EDA)
+1. Menganalisis risiko penyakit jantung berdasarkan faktor kesehatan 
+2. Mengedintifikasi faktor yang paling berpengaruh terhadap penyakit jantung 
+3. Membantu mengetahui risiko penyakit jantung lebih awal
+4. Menganalisis tingkat akurasi dari model Decision Tree sebagai metode prediksi sederhana untuk mengidentifikasi risiko penyakit jantung 
+5. Memberikan gambaran fitur kesehatan mana yang paling berpengaruh terhadap risiko 
+penyakit jantung.
 
-Membersihkan dataset dari data yang tidak konsisten
-
-Menganalisis pola dan hubungan antar variabel
-
-Menyajikan hasil dalam bentuk visualisasi dan laporan
-
-⚠️ Catatan: Walaupun pada laporan tertulis project kelompok, seluruh pengerjaan project ini dilakukan secara mandiri.
-
-🎯 Tujuan Analisis
-
-Mengidentifikasi pola kelelahan berdasarkan data yang tersedia
-
-Menentukan faktor-faktor yang berpengaruh
-
-Menyajikan insight dalam bentuk visualisasi
-
-Memberikan kesimpulan berbasis data
-
-🗂 Dataset
+# Dataset
 
 Dataset yang digunakan dalam project ini:
 
@@ -34,17 +21,15 @@ Telah melalui proses data cleaning
 
 Mengandung beberapa variabel numerik dan kategorikal
 
-Tahapan pengolahan dataset:
+# Tahapan pengolahan dataset:
 
 Data Cleaning (missing value, duplikasi, format data)
 
 Data Transformation
 
-Exploratory Data Analysis (EDA)
-
 Visualisasi data
 
-🛠 Tools & Libraries
+# Tools & Libraries
 
 Project ini dibuat menggunakan:
 
@@ -60,31 +45,23 @@ Matplotlib
 
 Seaborn
 
-🔎 Metodologi
+# Metodologi
 
-Berikut tahapan analisis yang dilakukan:
+Berikut tahapan analisis menggunakan CRISP-DM:
 
-1️⃣ Data Preprocessing
+1. Bussiness understanding
 
-Handling missing values
+2. Data Understanding
 
-Data type correction
+3. Data preparation
 
-Data filtering
+4. Modelling
 
-Data normalization (jika diperlukan)
+5. Evaluation
 
-2️⃣ Exploratory Data Analysis (EDA)
+6. Deployment
 
-Statistik deskriptif
-
-Distribusi data
-
-Korelasi antar variabel
-
-Analisis pola tertentu
-
-3️⃣ Visualisasi
+# Visualisasi
 
 Menggunakan:
 
@@ -92,46 +69,28 @@ Bar chart
 
 Line chart
 
-Heatmap
+Heatmap Confussion Matrix
 
 Histogram
 
-Scatter plot
+# Hasil & Insight
 
-📈 Hasil & Insight
+Berdasarkan hasil analisis “Prediksi risiko penyakit jantung berdasarkan faktor 
+kesehatan menggunakan Decision Tree” dapat disimpulkan bahwa model mampu melakukan klasifikasi yang cukup baik Model ini juga 
+menunjukkan peningkatan pada metrik evaluasi lainnya seperti Akurasi, precision, recall, dan 
+F1-score, sehingga memberikan performa yang lebih stabil dan seimbang dibandingkan model 
+awal. 
+Fitur-fitur klinis seperti chest pain type (cp), thalach, oldpeak, dan exang terbukti 
+menjadi atribut yang cukup berpengaruh dalam proses pengambilan keputusan model. 
+Visualisasi struktur pohon keputusan juga menunjukkan bahwa model dapat memetakan 
+hubungan antar variabel dengan cukup baik. 
 
-Dari hasil analisis diperoleh:
+Meskipun performanya belum dapat dianggap sempurna, Decision Tree tetap menjadi 
+model yang tepat untuk analisis awal karena mudah dipahami, mudah divisualisasikan, dan 
+mampu memberikan gambaran jelas mengenai faktor-faktor risiko penyakit jantung. Secara 
+keseluruhan, penelitian ini berhasil menunjukkan bahwa pemanfaatan data klinis dengan 
+metode machine learning dapat membantu identifikasi risiko penyakit jantung secara lebih 
+cepat dan informatif.
 
-Terdapat pola tertentu yang memengaruhi tingkat fatigue
-
-Variabel tertentu menunjukkan korelasi signifikan
-
-Insight yang diperoleh dapat digunakan untuk evaluasi lebih lanjut
-
-(Bagian ini bisa kamu isi lebih spesifik sesuai hasil analisismu biar makin kuat dan profesional)
-
-📄 Struktur Folder
-📂 Drug-Fatigue-Analysis
-│── 📄 README.md
-│── 📄 analysis.ipynb
-│── 📄 dataset.csv
-│── 📄 laporan.pdf
-│── 📁 images (opsional untuk visualisasi)
-
-📊 Contoh Output
-
-Statistik deskriptif
-
-Visualisasi distribusi data
-
-Heatmap korelasi
-
-Grafik tren
-
-💡 Pengembangan Selanjutnya
-
-Penerapan Machine Learning
-
-Feature Engineering lanjutan
-
-Dashboard interaktif (Streamlit / Power BI)
+# AUTHOR
+Hana Rahmaya Zahra

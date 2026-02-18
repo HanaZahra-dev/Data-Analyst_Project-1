@@ -69,7 +69,9 @@ Bar chart
 
 Line chart
 
-Heatmap Confussion Matrix
+Heatmap (Confussion Matrix)
+
+Grafik Desicion Tree
 
 Histogram
 
